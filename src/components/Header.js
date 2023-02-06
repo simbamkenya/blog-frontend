@@ -54,11 +54,9 @@ function Header() {
         </div>
         <div  className="w-full flex-grow sm:flex sm:items-center sm:w-auto">
             <div className="w-full container mx-auto flex flex-col sm:flex-row items-center justify-center text-sm font-bold uppercase mt-0 px-6 py-2">
-                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Technology</a>
-                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Automotive</a>
-                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Finance</a>
-                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Politics</a>
-                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Culture</a>
+                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Programming</a>
+                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Reviews</a>
+                <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Networking</a>
                 <a href="#" className="hover:bg-gray-400 rounded py-2 px-4 mx-2">Sports</a>
             </div>
         </div>
