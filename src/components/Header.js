@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -8,8 +9,8 @@ function Header() {
 
             <nav>
                 <ul className="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
-                    <li><a className="hover:text-gray-200 hover:underline px-4" href="#">Shop</a></li>
-                    <li><a className="hover:text-gray-200 hover:underline px-4" href="#">About</a></li>
+                    <li><Link className="hover:text-gray-200 hover:underline px-4" to="/login">Login</Link></li>
+                    <li><Link className="hover:text-gray-200 hover:underline px-4" to="/register">Register</Link></li>
                 </ul>
             </nav>
 
