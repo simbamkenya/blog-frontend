@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import TopBarNav from './TopBarNav'
 
 function Login() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
  const handleSubmit = e => {
     e.preventDefault();
-
     console.log({em:email, pas: password})
  }
 
   return (
     <>
-    <Header />
+    <TopBarNav />
      <div className="flex items-center h-screen w-full">
         <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
         <span className="block w-full text-xl uppercase font-bold mb-4">Login</span>      
