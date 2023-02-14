@@ -1,8 +1,7 @@
 import React from 'react'
-import Header from './Header'
 import Footer from './Footer'
 import {useState} from 'react'
-import TopBarNav from './TopBarNav'
+import TopBarNav from './TopBarNav';
 
 function Register() {
  const [email, setEmail] = useState('');
